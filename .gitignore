@@ -1,0 +1,4 @@
+node_modules/
+reminders.db
+.env
+.DS_Store
