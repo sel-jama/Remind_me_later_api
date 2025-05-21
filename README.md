@@ -21,6 +21,22 @@ This API stores reminders with date, time, message, and notification method (SMS
    ```bash
    npm start
    ```
+## API Usage
+
+**Endpoint:**  
+`POST /api/reminders`
+
+**Request Example:**
+```bash
+curl -X POST http://localhost:3000/api/reminders \
+-H "Content-Type: application/json" \
+-d '{
+  "date": "2023-12-31",
+  "time": "23:59",
+  "message": "Celebrate new year",
+  "method": "sms"
+}'
+```
 
 ## Technologies Used
 
